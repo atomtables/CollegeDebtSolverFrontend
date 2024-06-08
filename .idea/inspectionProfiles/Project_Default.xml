@@ -1,0 +1,95 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CheckImageSize" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <Languages>
+        <language minSize="175" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="ES6ConvertVarToLetConst" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="padder" />
+            <item index="7" class="java.lang.String" itemvalue="columns" />
+            <item index="8" class="java.lang.String" itemvalue="container" />
+            <item index="9" class="java.lang.String" itemvalue="sidebar" />
+            <item index="10" class="java.lang.String" itemvalue="hero" />
+            <item index="11" class="java.lang.String" itemvalue="block" />
+            <item index="12" class="java.lang.String" itemvalue="content" />
+            <item index="13" class="java.lang.String" itemvalue="row" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="JSUnresolvedReference" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="1" class="java.lang.String" itemvalue="pam" />
+            <item index="2" class="java.lang.String" itemvalue="ninja" />
+            <item index="3" class="java.lang.String" itemvalue="fastapi" />
+            <item index="4" class="java.lang.String" itemvalue="python-pam" />
+            <item index="5" class="java.lang.String" itemvalue="six" />
+            <item index="6" class="java.lang.String" itemvalue="pip" />
+            <item index="7" class="java.lang.String" itemvalue="gitpython" />
+            <item index="8" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="9" class="java.lang.String" itemvalue="flask" />
+            <item index="10" class="java.lang.String" itemvalue="psutil" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+          <option value="E303" />
+          <option value="E701" />
+          <option value="E702" />
+          <option value="E501" />
+          <option value="W292" />
+          <option value="E302" />
+          <option value="E305" />
+          <option value="E402" />
+          <option value="E301" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="vuln.p64" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SillyAssignmentJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="StandardJS" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" editorAttributes="GENERIC_SERVER_ERROR_OR_WARNING" />
+  </profile>
+</component>
