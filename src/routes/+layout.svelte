@@ -40,7 +40,9 @@
 </div>
 <div class="pb-[64px]"></div>
 
-<slot/>
+<div class="min-h-[calc(100vh-64px)]">
+    <slot/>
+</div>
 
 <footer class="footer p-10 bg-neutral text-neutral-content">
     <aside>

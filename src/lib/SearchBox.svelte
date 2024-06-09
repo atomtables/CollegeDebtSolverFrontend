@@ -49,7 +49,9 @@
         <br>
         <ul class="menu bg-base-200 rounded-box overflow-scroll max-h-72 w-full">
             {#each shownData as symbol}
-                <li class=""><a href={`/stock/${symbol[0]}`}>{symbol[1]}</a></li>
+                <li class="">
+                    <a href={`/stock/${symbol[0]}`} on:click={() => {search.close();setTimeout(()=>searchText="",100)}}>{symbol[1]}</a>
+                </li>
             {/each}
         </ul>
     </div>
